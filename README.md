@@ -48,14 +48,14 @@
 
 
 #### EXAMPLE for hash:
-	``` ./hc_tool.py hash --string "YOUR_STRING" --algorithm md5 ```
+	./hc_tool.py hash --string "YOUR_STRING" --algorithm md5
 
 #### EXMAPLE for crack:
 	USING file:
-		```./hc_tool.py crack --hash "YOUR_HASH" --algorithm md5 --wordlist FILE.TXT```
+		./hc_tool.py crack --hash "YOUR_HASH" --algorithm md5 --wordlist FILE.TXT
 
 	USING stdin:
-		```cat FILE.txt | ./h_too.py crack --hash "YOUR_HASH" -algorithm md5 --wordlist - ```
+		cat FILE.txt | ./h_too.py crack --hash "YOUR_HASH" -algorithm md5 --wordlist -
 
 	YOU CAN USE stdin WORD INSTEAD THE HYPHEN IT WILL GIVE YOU THE SAME RESULT.
 	AND YOU CAN USE OPTIONS LIKE THAT :
