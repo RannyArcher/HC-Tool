@@ -1,10 +1,10 @@
-## tHIS IS A HASHING AND CRACKING (TOOL ALL IN ONE)
+## THIS IS A HASHING AND CRACKING (TOOL ALL IN ONE)
 
 
 
 #### MODES:
-	__crack__:	this make you able to crack a hash using wordlist file or stdin program.
-	__hash__:	this make you able to creat your own hash.
+	__crack__ :	this make you able to crack a hash using wordlist file or stdin program.
+	**hash**:	this make you able to creat your own hash.
 
 
 
