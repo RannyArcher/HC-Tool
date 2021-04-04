@@ -48,7 +48,7 @@
 
 
 #### EXAMPLE for hash:
-	```./hc_tool.py hash --string "YOUR_STRING" --algorithm md5```
+	``` ./hc_tool.py hash --string "YOUR_STRING" --algorithm md5 ```
 
 #### EXMAPLE for crack:
 	USING file:
