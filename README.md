@@ -1,14 +1,14 @@
-##THIS IS A HASHING AND CRACKING (TOOL ALL IN ONE)
+## tHIS IS A HASHING AND CRACKING (TOOL ALL IN ONE)
 
 
 
-####MODES:
+#### MODES:
 	__crack__:	this make you able to crack a hash using wordlist file or stdin program.
 	__hash__:	this make you able to creat your own hash.
 
 
 
-####OPTIONS in crack:
+#### OPTIONS in crack:
 	__[-a/--algorithm]__	it specifies what algorithm you want to use while cracking.
 				put unknow in the value if you dont know.
 				the unknow value will try all avaible algorithms.
@@ -23,7 +23,7 @@
 
 
 
-####OPTIONS in hash :
+#### OPTIONS in hash :
 	__[-a/--algorithm]__	it specifies your hash's algorithm.
 
 	__[-s/--string]__		it specifies what string you want to hash it.
@@ -33,36 +33,36 @@
 
 
 
-####Available Algorithms:
+#### Available Algorithms:
 
-**	sha224		blake2s		sha3_384
+**	sha224		blake2s		sha3_384**
 
-	sha3_224	blake2b		sha3_512
+**	sha3_224	blake2b		sha3_512**
 
-	sha1		md5		sha384
+**	sha1		md5		sha384**
 
-	sha256		sha3_256	sha512**
+**	sha256		sha3_256	sha512**
 
 
 	__BE CAREFULL IF YOU USE UNAVAILABLE ALGORITHM YOU'LL GET AN ERROR !__
 
 
 
-####EXAMPLE for hash:
+#### EXAMPLE for hash:
 	```./hc_tool.py hash --string "YOUR_STRING" --algorithm md5```
 
-####EXMAPLE for crack:
+#### EXMAPLE for crack:
 	__USING file:__
 		```./hc_tool.py crack --hash "YOUR_HASH" --algorithm md5 --wordlist FILE.TXT```
 
 	__USING stdin:__
-		```cat FILE.txt | ./h_too.py crack --hash "YOUR_HASH" -algorithm md5 --wordlist -```
+		```cat FILE.txt | ./h_too.py crack --hash "YOUR_HASH" -algorithm md5 --wordlist - ```
 
 	__YOU CAN USE stdin WORD INSTEAD THE HYPHEN IT WILL GIVE YOU THE SAME RESULT.__
-	__AND YOU CAN USE OPTIONS LIKE THAT :
-		-x	or	-hash		or	--hash
-		-s	or	-string		or	--string
-	AND SO ON.__
+	__AND YOU CAN USE OPTIONS LIKE THAT :__
+__		-x	or	-hash		or	--hash__
+__		-s	or	-string		or	--string__
+__	AND SO ON.__
 
 
 
