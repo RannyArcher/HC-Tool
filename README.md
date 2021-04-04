@@ -6,7 +6,6 @@
 	crack :	this make you able to crack a hash using wordlist file or stdin program.
 	hash:	this make you able to creat your own hash.
 
-wordlist
 
 #### OPTIONS in crack:
 	[-a/--algorithm]	it specifies what algorithm you want to use while cracking.
